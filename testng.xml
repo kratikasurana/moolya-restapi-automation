@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+	<test name="usersTest" enabled="true">
+		<classes>
+			<class name="com.moolya.automation.test.CreateUserTest" />
+			<class name="com.moolya.automation.test.UpdateUserTest" />
+			<class name="com.moolya.automation.test.DeleteUserTest" />
+			<class name="com.moolya.automation.test.ListUsersTest" />
+		</classes>
+	</test>
+
+
+
+</suite>
